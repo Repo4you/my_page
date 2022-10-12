@@ -17,7 +17,7 @@ To install Tmux using default repositories, run the installation command using t
 sudo apt-get install tmux
 ```
 
-![Terminal command to install tmux on Ubuntu](E:\project_linux\Eye_fixation_prediction\Doc\tmux.assets\install-tmux-on-debian-ubuntu.png)
+![Terminal command to install tmux on Ubuntu](tmux.assets\install-tmux-on-debian-ubuntu.png)
 
 ### Install Tmux on RedHat and CentOS
 
@@ -43,7 +43,7 @@ Tmux allows splitting the screen both horizontally and vertically.
 
 Split the screen horizontally: **`CTRL+b+"`**
 
-![horizontally split screen in tmux](E:\project_linux\Eye_fixation_prediction\Doc\tmux.assets\split-window-tmux.png)
+![horizontally split screen in tmux](tmux.assets\split-window-tmux.png)
 
 Split the screen vertically: **`CTRL+b+%`**
 
@@ -51,7 +51,7 @@ Split the screen vertically: **`CTRL+b+%`**
 
 If you need to exit a pane, just type **`exit`** and press **Enter**. Alternatively, press **`CTRL+d`**. The currently selected pane will close.
 
-![example of the tmux exit command](E:\project_linux\Eye_fixation_prediction\Doc\tmux.assets\exit-tmux-pane.png)
+![example of the tmux exit command](tmux.assets\exit-tmux-pane.png)
 
 ### Moving Between Panes
 
@@ -123,7 +123,7 @@ Instead of *session_name*, type the real name of the session.
 
 To list all active sessions type **`tmux ls`** and hit **Enter.**
 
-![Active tmux sessions listed in the Linux terminal](E:\project_linux\Eye_fixation_prediction\Doc\tmux.assets\list-sessions.png)
+![Active tmux sessions listed in the Linux terminal](tmux.assets\list-sessions.png)
 
 ### Working With Windowed Screens
 
@@ -135,7 +135,7 @@ To rename a window, switch to it and use the comma key: **`CTRL+b+,`**
 
 The status bar at the bottom will change color to yellow. You can backspace to delete the existing name, then type a new name for this window.
 
-![renaming a tmux window](E:\project_linux\Eye_fixation_prediction\Doc\tmux.assets\rename-tmux-window.png)
+![renaming a tmux window](tmux.assets\rename-tmux-window.png)
 
 ### Switch Between Windows
 
@@ -153,7 +153,7 @@ Use the **up/down arrow keys** to select the window you want to use, then press 
 
 Close a tmux window with **`CTRL+b+&`**. Confirm your choice by typing **`y`**.
 
-![The command to terminate tmux window](E:\project_linux\Eye_fixation_prediction\Doc\tmux.assets\tmux-close-window.png)
+![The command to terminate tmux window](tmux.assets\tmux-close-window.png)
 
 Closing all windows will exit tmux.
 
@@ -213,7 +213,7 @@ You may use a numerical code (**`0 – 255`**) to specify a color. The **`#`** s
 
 Save the changes and exit the file.
 
-![custom color scheme in tmux.](E:\project_linux\Eye_fixation_prediction\Doc\tmux.assets\status-bar-color.png)
+![custom color scheme in tmux.](tmux.assets\status-bar-color.png)
 
 ### Change Pane Numbering
 
